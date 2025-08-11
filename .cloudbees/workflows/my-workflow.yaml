@@ -17,11 +17,4 @@ jobs:
         shell: sh
         run: |
           echo "hello world"
-  test:
-    with:
-      instructions: ""
-      disallowLaunchByUser: false
-      approvers: ""
-      notifyAllEligibleUsers: false
-    timeout-minutes: 4320
-    delegates: cloudbees-io/manual-approval/custom-job.yml@v1
+  
