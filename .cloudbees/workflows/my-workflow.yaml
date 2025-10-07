@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 permissions:
   scm-token-own: read
   scm-token-org: read
